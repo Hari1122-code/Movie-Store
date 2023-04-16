@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from "react"
-import {
-  AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid,
-  Stack, Box, Toolbar, Typography, Container, Divider
+import React, { useEffect } from "react"
+import {Card, CardMedia, Grid,
+  Typography, Container
 } from "@mui/material";
-import CameraIcon from '@mui/icons-material/PhotoCamera';
 import { useParams } from "react-router-dom";
-import MovieApi from "../apis/MovieApi";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { fetchAsyncMovieDetail, getSelectedMovie } from "../Redux/Store";
 // import {selectedMovie,removeSelectedMovie} from "../Redux/Store";
-import { shadows } from '@mui/system';
 import { removeSelectedMovie } from "../Redux/Store";
 
 function MovieDetail() {

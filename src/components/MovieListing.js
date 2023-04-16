@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid,
-  Stack, Box, Toolbar, Typography, Container, CardActionArea
+  Card, CardContent, CardMedia, Grid,
+  Box, Typography, Container, CardActionArea
 } from "@mui/material";
 import { useSelector } from "react-redux";
 import { getAllMovies, getAllShows } from "../Redux/Store";
@@ -11,7 +11,6 @@ import { getAllMovies, getAllShows } from "../Redux/Store";
 function MovieListing() {
   const movies = useSelector(getAllMovies);
   const shows = useSelector(getAllShows);
-  let renderMovies = "";
   
   return (
     <>

@@ -1,7 +1,5 @@
 import React, {useEffect,useState} from "react"
-import { AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid,
-Stack, Box, Toolbar, Typography, Container,TextField  } from "@mui/material";
-import CameraIcon from '@mui/icons-material/PhotoCamera';
+import { Button, Box, Typography, Container,TextField  } from "@mui/material";
 // import MovieApi from "../apis/MovieApi";
 // import { ApiKey } from "../apis/MovieApiKey";
 

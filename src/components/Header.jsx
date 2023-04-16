@@ -1,6 +1,6 @@
 import React from "react"
-import { AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid,
-    Stack, Box, Toolbar, Typography, Container,  } from "@mui/material";
+import { AppBar, Button, CssBaseline, Stack, Box, Toolbar, Typography,  } from "@mui/material";
+import { HashLink } from "react-router-hash-link";
 import SlideshowIcon from '@mui/icons-material/Slideshow';
 
 function Header(){
@@ -21,8 +21,8 @@ function Header(){
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained" href="#movies">Movies</Button>
-              <Button variant="contained" href="#shows">Shows</Button>
+              <HashLink to="#movies"><Button variant="contained">Movies</Button></HashLink>
+              <HashLink to="#shows"><Button variant="contained">Shows</Button></HashLink>
             </Stack>
             </Toolbar>
             </AppBar>

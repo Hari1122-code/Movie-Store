@@ -1,6 +1,5 @@
 import React from "react"
-import { AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid,
-    Stack, Box, Toolbar, Typography, Container,  } from "@mui/material";
+import { Box, Typography} from "@mui/material";
     
 function Footer() {
     return (
@@ -12,7 +11,7 @@ function Footer() {
                     color="text.secondary"
                     component="p"
                 >
-                    Copyright @2023
+                    Copyright - 2023
                 </Typography>
                 {/* <Copyright /> */}
             </Box>
